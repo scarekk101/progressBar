@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    position: relative;
+    width:100vw;
+    height:500vh;
+}
+
+.progress{
+    &__bar{
+        position: fixed;
+        height:7px;
+        width:0%;
+        top:0;
+        left:0;
+        background: linear-gradient(to right, #dd3e54, #f5af19, #6be585);
+    }
+}
+
+

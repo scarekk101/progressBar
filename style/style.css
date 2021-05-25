@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 500vh;
+}
+
+.progress__bar {
+  position: fixed;
+  height: 7px;
+  width: 0%;
+  top: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#dd3e54), color-stop(#f5af19), to(#6be585));
+  background: linear-gradient(to right, #dd3e54, #f5af19, #6be585);
+}
+/*# sourceMappingURL=style.css.map */
